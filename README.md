@@ -1,4 +1,10 @@
-Grund struktur
+# Schulprotal in gut
+
+## Description
+
+Das schulportal sieht momentan einfach scheisse auss also machen wir es besser.
+
+## Grund struktur
 ```
 project/
 ├── app/
@@ -9,6 +15,7 @@ project/
 │   ├── models.py       # (Optional) Datenbankmodelle
 │   └── forms.py        # (Optional) Formulare mit WTForms
 ├── config.py           # Konfigurationsdatei für Flask
+├── README.md           # Redme file
 ├── run.py              # Startpunkt der Anwendung
 └── requirements.txt    # Liste der Python-Abhängigkeiten
 ```
