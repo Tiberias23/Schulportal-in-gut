@@ -1,5 +1,5 @@
 Grund struktur
-'''
+```
 project/
 ├── app/
 │   ├── static/         # Für statische Dateien (CSS, JS, Bilder)
@@ -11,4 +11,4 @@ project/
 ├── config.py           # Konfigurationsdatei für Flask
 ├── run.py              # Startpunkt der Anwendung
 └── requirements.txt    # Liste der Python-Abhängigkeiten
-'''
+```
