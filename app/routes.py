@@ -1,11 +1,14 @@
-from flask import Blueprint, render_template
+from flask import Blueprint, render_template, send_from_directory, jsonify
+
+from database import db
 
 main = Blueprint('main', __name__)
 
-@main.route('/')
-def home():
-    return render_template('home.html')
+@main.route('/api/login', methods=['POST'])
+def api():
+    
+    return jsonify({}), 200, { 'Content-Type': 'application/json' }
 
-@main.route('/about')
-def about():
-    return render_template('about.html')
+@main.route('/<path:path>')
+def home(path):
+    return send_from_directory('templates', path)
