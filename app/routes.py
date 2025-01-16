@@ -1,5 +1,4 @@
 from flask import Blueprint, render_template, send_from_directory, jsonify
-
 from .database import db
 
 main = Blueprint('main', __name__)

@@ -3,6 +3,7 @@
 ## Description
 
 Das schulportal sieht momentan einfach scheisse auss also machen wir es besser.
+wenn du selbst eine Version hosten wilst der kramm den du brauchst ist in requirements.txt
 
 ## Grund struktur
 ```
