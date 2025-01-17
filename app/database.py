@@ -2,9 +2,9 @@ import sqlite3
 
 db = sqlite3.connect('app.db')
 
-# Create a table for users if it doesn't exist
-db.cursor().execute('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, email TEXT, password TEXT)').close()
+# Create a table for users if it doesn't exist (Bei zweiteFremdsprache bitte nur 0 oder 1 eingeben (0 = Nein, 1 = Ja))
+db.cursor().execute('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, Klasse TEXT, zweiteFremdsprache INTEGER, email TEXT, password TEXT)').close()
 # Hier kann man einen SQLite Befehl ausführen.
-db.cursor().execute("SELECT * FROM users").close()
+db.cursor().execute("").close()
 # Commit the changes
 db.commit()
