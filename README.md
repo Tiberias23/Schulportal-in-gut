@@ -10,13 +10,11 @@ wenn du selbst eine Version hosten wilst der kramm den du brauchst ist in requir
 project/
 ├── app/
 │   ├── static/         # Für statische Dateien (CSS, JS, Bilder)
-│   ├── templates/      # Für HTML-Vorlagen (Jinja2)
-│   ├── __init__.py     # Initialisiert die Flask-App
-│   ├── routes.py       # Definiert die Routen (Endpoints)
-│   ├── models.py       # (Optional) Datenbankmodelle
-│   └── forms.py        # (Optional) Formulare mit WTForms
+│   ├── templates/      # Für HTML-Vorlagen
+│   └── __init__.py     # Initialisiert die Flask-App
+├── app.db              # Datenbank
 ├── config.py           # Konfigurationsdatei für Flask
 ├── README.md           # Redme file
-├── run.py              # Startpunkt der Anwendung
-└── requirements.txt    # Liste der Python-Abhängigkeiten
+├── requirements.txt    # Liste der Python-Abhängigkeiten
+└── run.py              # Startpunkt der Anwendung
 ```
